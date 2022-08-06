@@ -28,7 +28,7 @@ FoodAdda Top Features:<br/>
 
 # Tech Involved: Android (Java), Retrofit, Web APIs, PHP, MYSQL(Database).<br/><br/>
 
-<img src="https://github.com/akshay0077/Picture-Point/blob/Photos/FoodAdda.jpg" height=800px >
+<img src="https://github.com/akshay0077/Picture-Point/blob/Photos/FoodAdda.jpg" height=1500px >
 
 
 <br/><br/>
