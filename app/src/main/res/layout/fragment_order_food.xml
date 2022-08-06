@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.OrderFoodFragment">
+
+    <ImageView
+        android:id="@+id/igBackDashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/topline"
+        android:padding="5dp"
+        android:src="@drawable/ic_baseline_keyboard_backspace_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/igAddCartOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/topline"
+        android:src="@drawable/bag"
+        app:layout_constraintBottom_toBottomOf="@+id/igBackDashboard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/igBackDashboard" />
+
+    <TextView
+        android:id="@+id/txAddCartItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="@string/_1"
+        android:textColor="@color/orange"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/igAddCartOrder"
+        app:layout_constraintEnd_toEndOf="@+id/igAddCartOrder" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:elevation="40dp"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="@+id/igAddCartOrder"
+        app:layout_constraintStart_toStartOf="@+id/igBackDashboard"
+        app:layout_constraintTop_toBottomOf="@+id/igBackDashboard">
+
+        <ImageView
+            android:id="@+id/igOrderFood"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/topline"
+            android:src="@drawable/pizzamenu" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/txOrderFoodName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="@string/american_pizaa"
+        android:textColor="@color/light_black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/cardView"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="6dp"
+        android:src="@drawable/star24"
+        android:contentDescription="@string/american_pasta"
+        app:layout_constraintBottom_toBottomOf="@+id/txOrderFoodName"
+        app:layout_constraintEnd_toStartOf="@+id/txOrderFoodRating"
+        app:layout_constraintTop_toTopOf="@+id/txOrderFoodName" />
+
+    <TextView
+        android:id="@+id/txOrderFoodRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="@string/_4_5"
+        android:textColor="@color/light_black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/cardView"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/txOrderFoodPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="@string/_250"
+        android:textColor="@color/orange"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/txOrderFoodName"
+        app:layout_constraintTop_toBottomOf="@+id/txOrderFoodName" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="@string/detailFood"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/txOrderFoodRating"
+        app:layout_constraintStart_toStartOf="@+id/txOrderFoodPrice"
+        app:layout_constraintTop_toBottomOf="@+id/txOrderFoodPrice" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="@+id/textView11"
+        app:layout_constraintStart_toStartOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView11">
+
+        <Button
+            android:id="@+id/btnMinus"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search_bg"
+            android:text="@string/dash"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/txCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/open_sans_bold"
+            android:text="@string/_1"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnPlus"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search_bg"
+            android:text="@string/plus"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView11"
+        app:layout_constraintStart_toStartOf="@+id/textView11">
+
+        <TextView
+            android:id="@+id/txTotalFoodPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/open_sans_bold"
+            android:gravity="center"
+            android:text="@string/_250"
+            android:textColor="@color/orange"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnOrderAddToCart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/itemimage_bg"
+            android:padding="15dp"
+            android:text="@string/add_to_cart" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
