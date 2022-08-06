@@ -32,20 +32,6 @@ FoodAdda Top Features:<br/>
 
 
 <br/><br/>
-<img src="https://play-lh.googleusercontent.com/PlkMLPEQbuWVPFC6SyBhukKQyXlkyqXneN-7C-BMMF_ArhF3FHX83ogkD3EN0HFBKdww=w2560-h1440-rw" height=400px >
-
-<img src="https://play-lh.googleusercontent.com/Iiu2lU8LlwM1DayNYpbkD7KYBnaJWRyJrS7HL8VMyF-Go2qDTs9GOlGgnDe-TtTUNSQ=w2560-h1440-rw" height=400px >
-
-<img src="https://play-lh.googleusercontent.com/VVnsQa-cXClxJeXDWUbSiCePMlYiyXFXc4J1DKcSBv6io2GTgdaUOf-VayVXLTVLQFJe=w2560-h1440-rw" height=400px >
-
-<img src="https://play-lh.googleusercontent.com/sKqvy5Ar8LRtpOCAT5c2TjxrhLxRzq1BmRE1nBHyclhVx3vnu2hi6NX8z5MLRsc04neh=w2560-h1440-rw" height=400px >
-
-<img src="https://play-lh.googleusercontent.com/oKKaqCJQn8mHj44TkmZKR5WAQVcQ-5cr5fY3unWMo-qpuYYkY7SDSspsC5rNRD062ew=w2560-h1440-rw" height=400px >
-
-<img src="https://play-lh.googleusercontent.com/i5A9mg3GC0CLTE0xAUYWZ8Jao6w2VaTdbhFpAV6Dsf8gnNbv6OGu3cYid1D_lP2l1QU=w2560-h1440-rw" height=400px >
-
-<img src="https://play-lh.googleusercontent.com/ymiMaLS8k5-LXt0VVCpK7KHSzFZqchmMWPi-kD4Lze6yredZKxBp4pH-KTUC_TKIFV0r=w2560-h1440-rw" height=400px >
-
 
 # Web Admin Panel ScreenShot
 
