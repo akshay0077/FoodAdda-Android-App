@@ -36,27 +36,27 @@ FoodAdda Top Features:<br/>
 # Web Admin Panel ScreenShot
 
 # Login Page
-<img src="https://github.com/akshay0077/Meal-Monkey-Food-Ordering-Android-App/blob/Test/1-login.png" height=250px >
+<img src="https://github.com/akshay0077/FoodAdda-Android-App/blob/Admin-Photos/1-login.png" height=250px >
 <br/>
 
 # Register (New User) Page
-<img src="https://github.com/akshay0077/Meal-Monkey-Food-Ordering-Android-App/blob/Test/2-register.png" height=250px>
+<img src="https://github.com/akshay0077/FoodAdda-Android-App/blob/Admin-Photos/2-register.png" height=250px>
 <br/>
 
 # DashBoard
-<img src="https://github.com/akshay0077/Meal-Monkey-Food-Ordering-Android-App/blob/Test/3-dashboard.png" height=250px>
+<img src="https://github.com/akshay0077/FoodAdda-Android-App/blob/Admin-Photos/3-dashboard.png" height=250px>
 <br/>
 
 # New categoty add here
-<img src="https://github.com/akshay0077/Meal-Monkey-Food-Ordering-Android-App/blob/Test/4-addcategory.png" height=250px>
+<img src="https://github.com/akshay0077/FoodAdda-Android-App/blob/Admin-Photos/4-addcategory.png" height=250px>
 <br/>
 
 # Add menu here
-<img src="https://github.com/akshay0077/Meal-Monkey-Food-Ordering-Android-App/blob/Test/5-addmenu.png" height=250px>
+<img src="https://github.com/akshay0077/FoodAdda-Android-App/blob/Admin-Photos/5-addmenu.png" height=250px>
 <br/>
 
 # All Data show in Table
-<img src="https://github.com/akshay0077/Meal-Monkey-Food-Ordering-Android-App/blob/Test/6-alltable.png" height=250px>
+<img src="https://github.com/akshay0077/FoodAdda-Android-App/blob/Admin-Photos/6-alltable.png" height=250px>
 <br/>
 
 ## You can Connect With Me
